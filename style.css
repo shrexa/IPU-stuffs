@@ -103,6 +103,9 @@
     font-weight: 600;
     color: black;
   }
+
+
+  
   /* aboutttttttttt */
   #about {
     padding: 50px 90px;
@@ -190,3 +193,29 @@
     display: block;
   }
   
+  /* buttonss dwnls,share */
+  /* #kro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  } */
+   .pdf{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+   }
+  .btn {
+    display: block;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    border: 3px solid cornflowerblue;
+    font-weight: 500;
+    margin: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #fff;
+    width: 30%;
+  }
