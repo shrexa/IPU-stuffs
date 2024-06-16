@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 65px ;
+    //margin-bottom: 65px ;
     padding: 50px;
     background-color: chocolate;
   }
@@ -37,13 +37,13 @@
     color : rgb(30, 210, 99)
     }
   
-  .logo::first-letter {
+  /* .logo::first-letter {
     color: chocolate;
     font-size: 35px;
-  }
+  } */
   nav ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 10px;
   }
   
    a {
@@ -198,12 +198,11 @@
     display: block;
   }
   
-  /* buttonss dwnls,share */
   #kro{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 50px; */
   }
    .pdf{
     display: grid;
